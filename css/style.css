@@ -64,7 +64,7 @@ nav ul li a:active{
     border: 1px solid pink;
 }
 
-@media(min-width: 420px){
+@media(min-width: 26.25em){
     nav ul{
         display: flex;
     }
@@ -98,7 +98,7 @@ nav ul li a:active{
     font-size: 1.3rem;
 }
 
-@media(min-width: 900px){
+@media(min-width: 56.25em){
     .banner{
         position: relative;
     }
@@ -140,7 +140,7 @@ figure img{
     margin: auto;
 }
 
-@media(min-width: 420px){
+@media(min-width: 26.25em){
     .projects{
         display: flex;
         flex-wrap: wrap;
@@ -152,7 +152,7 @@ figure img{
     }
 }
 
-@media(min-width: 900px){
+@media(min-width: 56.25em){
     .projects figure{
         width: 17.8%;
     }
@@ -182,7 +182,7 @@ footer{
     color: #eeebe8;
 }
 
-@media(min-width:750px){
+@media(min-width:46.875em){
     footer .copyright{
         display: flex;
         justify-content: space-between;
