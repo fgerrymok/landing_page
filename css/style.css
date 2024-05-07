@@ -1,0 +1,164 @@
+/* General */
+
+body{
+    margin: 0px;
+    line-height: 1.5rem;
+}
+
+main{
+    flex: 1;
+    background-color: lightgray;
+}
+
+h2{
+    margin: 2rem 0rem 2rem 1.15rem;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    border-bottom: 2px solid white;
+    background-color: #0c0c0c;
+}
+
+nav {   
+    background-color: #0c0c0c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul{
+    padding: 10px;
+    margin: 0px;
+    list-style-type: none;
+    gap: 5px;
+}
+
+nav ul li{
+    padding: 0rem 0.5rem;
+}
+
+nav ul li a{
+    padding: 4px;
+    font-size: 1.25rem;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid 0c0c0c;
+}
+
+nav ul li a:hover, nav ul li a:focus{
+    border-bottom: 1px solid pink;
+    color: lightgray;
+}
+
+nav ul li a:active{
+    border: 1px solid pink;
+}
+
+@media(min-width: 420px){
+    nav ul{
+        display: flex;
+    }
+}
+
+/* Hero Section */
+
+.banner{
+    height: 30rem;
+    background-image: url("../media/hero_workspace.jpg");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-tint{
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
+}
+
+.banner h1{
+    color:white;
+    margin-bottom: 0rem;
+    font-size: 3rem;
+}
+
+.banner p{
+    color:white;
+    font-size: 1.3rem;
+}
+
+/* Projects */
+
+figure{
+    background-color: white;
+    margin: 2rem;
+}
+
+.projects figure{
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.projects figcaption {
+    font-size: 1.15rem;
+}
+
+@media(min-width: 420px){
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projects figure{
+        width: 35%;
+    }
+}
+
+@media(min-width: 900px){
+    .projects figure{
+        width: 17.8%;
+    }
+}
+
+/* About Me */
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-me p{
+    padding: 1rem;
+    padding-top: 0rem;
+    max-width: 750px;
+    font-size: 1.15rem;
+}
+
+/* footer */
+
+footer{
+    background-color: grey;
+    padding: 1rem;
+}
+
+#wrapper{
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+}
