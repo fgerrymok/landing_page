@@ -103,12 +103,16 @@ nav ul li a:active{
 figure{
     background-color: white;
     margin: 2rem;
-}
-
-.projects figure{
+    display: flex;
+    flex-wrap: wrap;
     border: 2px solid black;
     border-radius: 1rem;
     padding: 1rem;
+}
+
+figure img{
+    width: fit-content;
+    margin: auto;
 }
 
 .projects figcaption {
@@ -161,8 +165,4 @@ footer{
     flex-direction: column;
     min-height: 100vh;
     margin: auto;
-}
-
-.div{
-    
 }
