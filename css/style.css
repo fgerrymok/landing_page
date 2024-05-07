@@ -98,7 +98,22 @@ nav ul li a:active{
     font-size: 1.3rem;
 }
 
+@media(min-width: 900px){
+    .banner{
+        position: relative;
+    }
+    .banner h1{
+        position: absolute;
+        top: 10rem;
+        left: 11rem;
+    }
 
+    .banner p{
+        position: absolute;
+        top: 13rem;
+        left: 11rem;
+    }
+}
 
 /* Projects */
 
@@ -160,6 +175,14 @@ figure img{
 footer{
     background-color: grey;
     padding: 1rem;
+    font-size: 1.1rem;
+}
+
+@media(min-width:750px){
+    footer .copyright{
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 #wrapper{
