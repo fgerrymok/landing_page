@@ -98,6 +98,8 @@ nav ul li a:active{
     font-size: 1.3rem;
 }
 
+
+
 /* Projects */
 
 figure{
@@ -105,9 +107,10 @@ figure{
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid black;
+    border: 2px solid grey;
     border-radius: 1rem;
     padding: 1rem;
+    box-shadow: 0 0 8px 5px rgb(161, 161, 161);
 }
 
 figure img{
@@ -127,7 +130,7 @@ figure img{
     }
 
     .projects figure{
-        width: 35%;
+        width: 34%;
     }
 }
 
@@ -146,7 +149,7 @@ figure img{
 }
 
 .about-me p{
-    padding: 1rem;
+    padding: 2rem;
     padding-top: 0rem;
     max-width: 750px;
     font-size: 1.15rem;
