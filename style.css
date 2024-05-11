@@ -8,7 +8,7 @@ body{
 
 main{
     flex: 1;
-    background-color: #768a85;
+    background-color: #899A96;
 }
 
 h2{
@@ -23,7 +23,7 @@ h2{
 
 header{
     display: flex;
-    border-bottom: 4px solid #768a85;
+    border-bottom: 4px solid #899A96;
     background-color: #202425;
 }
 
@@ -80,7 +80,7 @@ nav ul li a:active{
 
 .banner{
     height: 30rem;
-    background-image: url("../media/hero_image_desk.jpg");
+    background-image: url("../media/hero_workspace.jpg");
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -196,7 +196,7 @@ footer{
 }
 
 #wrapper{
-    max-width: 1920px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
